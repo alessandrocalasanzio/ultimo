@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0a5d9fb.chunk.css",
-    "main.js": "/static/js/main.28018157.chunk.js",
-    "main.js.map": "/static/js/main.28018157.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c1ea8573.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c1ea8573.js.map",
+    "main.css": "/static/css/main.d2629f73.chunk.css",
+    "main.js": "/static/js/main.079bc81c.chunk.js",
+    "main.js.map": "/static/js/main.079bc81c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bd293b17.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bd293b17.js.map",
     "static/css/2.6947005f.chunk.css": "/static/css/2.6947005f.chunk.css",
-    "static/js/2.b850ee6b.chunk.js": "/static/js/2.b850ee6b.chunk.js",
-    "static/js/2.b850ee6b.chunk.js.map": "/static/js/2.b850ee6b.chunk.js.map",
-    "static/js/3.7aea8235.chunk.js": "/static/js/3.7aea8235.chunk.js",
-    "static/js/3.7aea8235.chunk.js.map": "/static/js/3.7aea8235.chunk.js.map",
+    "static/js/2.3bebf255.chunk.js": "/static/js/2.3bebf255.chunk.js",
+    "static/js/2.3bebf255.chunk.js.map": "/static/js/2.3bebf255.chunk.js.map",
+    "static/js/3.20d9b6ba.chunk.js": "/static/js/3.20d9b6ba.chunk.js",
+    "static/js/3.20d9b6ba.chunk.js.map": "/static/js/3.20d9b6ba.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6947005f.chunk.css.map": "/static/css/2.6947005f.chunk.css.map",
-    "static/css/main.a0a5d9fb.chunk.css.map": "/static/css/main.a0a5d9fb.chunk.css.map",
-    "static/js/2.b850ee6b.chunk.js.LICENSE.txt": "/static/js/2.b850ee6b.chunk.js.LICENSE.txt",
+    "static/css/main.d2629f73.chunk.css.map": "/static/css/main.d2629f73.chunk.css.map",
+    "static/js/2.3bebf255.chunk.js.LICENSE.txt": "/static/js/2.3bebf255.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/tempo.f20b7073.avif",
     "static/media/EntrataAbruzzo.9bf9af89.avif": "/static/media/EntrataAbruzzo.9bf9af89.avif",
     "static/media/Fuori.8e6c8308.avif": "/static/media/Fuori.8e6c8308.avif",
@@ -31,10 +31,12 @@
     "static/media/espresso.1e19f1e9.avif": "/static/media/espresso.1e19f1e9.avif",
     "static/media/fruit.674f2380.jpg": "/static/media/fruit.674f2380.jpg",
     "static/media/gambero.b6fefbf7.avif": "/static/media/gambero.b6fefbf7.avif",
+    "static/media/golosario.cca50019.png": "/static/media/golosario.cca50019.png",
     "static/media/guidaMichelin.e917e390.avif": "/static/media/guidaMichelin.e917e390.avif",
     "static/media/guru.bd30da42.avif": "/static/media/guru.bd30da42.avif",
     "static/media/lavagnanag.682e40a3.avif": "/static/media/lavagnanag.682e40a3.avif",
     "static/media/menu1.07e3553f.jpg": "/static/media/menu1.07e3553f.jpg",
+    "static/media/murales.593b1199.jpg": "/static/media/murales.593b1199.jpg",
     "static/media/muralesang.f420c8d2.avif": "/static/media/muralesang.f420c8d2.avif",
     "static/media/paneang.5ac6cc39.avif": "/static/media/paneang.5ac6cc39.avif",
     "static/media/pasta.8b043e40.jpg": "/static/media/pasta.8b043e40.jpg",
@@ -47,10 +49,10 @@
     "static/media/wine.08e49fdc.jpg": "/static/media/wine.08e49fdc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1ea8573.js",
+    "static/js/runtime-main.bd293b17.js",
     "static/css/2.6947005f.chunk.css",
-    "static/js/2.b850ee6b.chunk.js",
-    "static/css/main.a0a5d9fb.chunk.css",
-    "static/js/main.28018157.chunk.js"
+    "static/js/2.3bebf255.chunk.js",
+    "static/css/main.d2629f73.chunk.css",
+    "static/js/main.079bc81c.chunk.js"
   ]
 }
