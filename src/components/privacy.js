@@ -32,99 +32,176 @@ function Privacy() {
           </Modal.Header>
           <Modal.Body >
             <p>
-            Titolare del Trattamento dei Dati
-Zeus S.r.l - Via Rosolino Pilo, 20 - Milano
+          
 
-Indirizzo email del Titolare: angolodabruzzo@outlook.it
+<b>Ultimo aggiornamento: 03/02/2024</b>
 
-Tipologie di Dati raccolti
-Il Titolare non fornisce una lista di tipologie di Dati Personali raccolti.
+<p>Questo avviso sulla privacy per Da Giannino l'Angolo D'abruzzo - Zeus S.r.l. ("noi", "ci", o "nostro"), descrive come e perché potremmo raccogliere, conservare, utilizzare e/o condividere ("elaborare") le tue informazioni quando utilizzi i nostri servizi ("Servizi"). Leggendo questo avviso sulla privacy, potrai comprendere i tuoi diritti sulla privacy e le tue scelte. Se non sei d'accordo con le nostre politiche e pratiche, ti preghiamo di non utilizzare i nostri Servizi.</p>
+<br/><br/>
+<h4>RIEPILOGO DEI PUNTI CHIAVE</h4>
 
-Dettagli completi su ciascuna tipologia di dati raccolti sono forniti nelle sezioni dedicate di questa privacy policy o mediante specifici testi informativi visualizzati prima della raccolta dei dati stessi.
-I Dati Personali possono essere liberamente forniti dall'Utente o, nel caso di Dati di Utilizzo, raccolti automaticamente durante l'uso di questa Applicazione.
-Se non diversamente specificato, tutti i Dati richiesti da questa Applicazione sono obbligatori. Se l’Utente rifiuta di comunicarli, potrebbe essere impossibile per questa Applicazione fornire il Servizio. Nei casi in cui questa Applicazione indichi alcuni Dati come facoltativi, gli Utenti sono liberi di astenersi dal comunicare tali Dati, senza che ciò abbia alcuna conseguenza sulla disponibilità del Servizio o sulla sua operatività.
-Gli Utenti che dovessero avere dubbi su quali Dati siano obbligatori, sono incoraggiati a contattare il Titolare.
-L’eventuale utilizzo di Cookie - o di altri strumenti di tracciamento - da parte di questa Applicazione o dei titolari dei servizi terzi utilizzati da questa Applicazione, ove non diversamente precisato, ha la finalità di fornire il Servizio richiesto dall'Utente, oltre alle ulteriori finalità descritte nel presente documento e nella Cookie Policy, se disponibile.
+Questo riepilogo fornisce i punti chiave del nostro avviso sulla privacy, ma puoi scoprire ulteriori dettagli su ciascuno di questi argomenti cliccando sul link che segue ciascun punto chiave o utilizzando la nostra tabella dei contenuti di seguito per trovare la sezione che stai cercando.
 
-L'Utente si assume la responsabilità dei Dati Personali di terzi ottenuti, pubblicati o condivisi mediante questa Applicazione e garantisce di avere il diritto di comunicarli o diffonderli, liberando il Titolare da qualsiasi responsabilità verso terzi.
+<h5>Quali informazioni personali elaboriamo?</h5>
+Quando visiti, utilizzi o navighi nei nostri Servizi, potremmo elaborare informazioni personali a seconda di come interagisci con noi e con i Servizi, delle scelte che fai e dei prodotti e delle funzioni che utilizzi.
 
-Modalità e luogo del trattamento dei Dati raccolti
-Modalità di trattamento
-Il Titolare adotta le opportune misure di sicurezza volte ad impedire l’accesso, la divulgazione, la modifica o la distruzione non autorizzate dei Dati Personali.
-Il trattamento viene effettuato mediante strumenti informatici e/o telematici, con modalità organizzative e con logiche strettamente correlate alle finalità indicate. Oltre al Titolare, in alcuni casi, potrebbero avere accesso ai Dati altri soggetti coinvolti nell’organizzazione di questa Applicazione (personale amministrativo, commerciale, marketing, legali, amministratori di sistema) ovvero soggetti esterni (come fornitori di servizi tecnici terzi, corrieri postali, hosting provider, società informatiche, agenzie di comunicazione) nominati anche, se necessario, Responsabili del Trattamento da parte del Titolare. L’elenco aggiornato dei Responsabili potrà sempre essere richiesto al Titolare del Trattamento.
+Scopri di più sulle informazioni personali che ci fornisci.
 
-Base giuridica del trattamento
-Il Titolare tratta Dati Personali relativi all’Utente in caso sussista una delle seguenti condizioni:
+<h5>Elaboriamo informazioni personali sensibili?</h5>
+Non elaboriamo informazioni personali sensibili.
 
-l’Utente ha prestato il consenso per una o più finalità specifiche; Nota: in alcuni ordinamenti il Titolare può essere autorizzato a trattare Dati Personali senza che debba sussistere il consenso dell’Utente o un’altra delle basi giuridiche specificate di seguito, fino a quando l’Utente non si opponga (“opt-out”) a tale trattamento. Ciò non è tuttavia applicabile qualora il trattamento di Dati Personali sia regolato dalla legislazione europea in materia di protezione dei Dati Personali;
-il trattamento è necessario all'esecuzione di un contratto con l’Utente e/o all'esecuzione di misure precontrattuali;
-il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il Titolare;
-il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o per l'esercizio di pubblici poteri di cui è investito il Titolare;
-il trattamento è necessario per il perseguimento del legittimo interesse del Titolare o di terzi.
-È comunque sempre possibile richiedere al Titolare di chiarire la concreta base giuridica di ciascun trattamento ed in particolare di specificare se il trattamento sia basato sulla legge, previsto da un contratto o necessario per concludere un contratto.
+<h5>Riceviamo informazioni da terze parti?</h5>
+Possiamo ricevere informazioni da database pubblici, partner di marketing, piattaforme di social media e altre fonti esterne.
 
-Luogo
-I Dati sono trattati presso le sedi operative del Titolare ed in ogni altro luogo in cui le parti coinvolte nel trattamento siano localizzate. Per ulteriori informazioni, contatta il Titolare.
-I Dati Personali dell’Utente potrebbero essere trasferiti in un paese diverso da quello in cui l’Utente si trova. Per ottenere ulteriori informazioni sul luogo del trattamento l’Utente può fare riferimento alla sezione relativa ai dettagli sul trattamento dei Dati Personali.
+Scopri di più sulle informazioni raccolte da altre fonti.
 
-L’Utente ha diritto a ottenere informazioni in merito alla base giuridica del trasferimento di Dati al di fuori dell’Unione Europea o ad un’organizzazione internazionale di diritto internazionale pubblico o costituita da due o più paesi, come ad esempio l’ONU, nonché in merito alle misure di sicurezza adottate dal Titolare per proteggere i Dati.
+<h5>Come elaboriamo le tue informazioni?</h5>
+Elaboriamo le tue informazioni per fornire, migliorare e amministrare i nostri Servizi, comunicare con te, per la sicurezza e la prevenzione delle frodi, e per ottemperare alla legge. Possiamo anche elaborare le tue informazioni per altri scopi con il tuo consenso.
 
-L’Utente può verificare se abbia luogo uno dei trasferimenti appena descritti esaminando la sezione di questo documento relativa ai dettagli sul trattamento di Dati Personali o chiedere informazioni al Titolare contattandolo agli estremi riportati in apertura.
+Elaboriamo le tue informazioni solo quando abbiamo una valida ragione legale per farlo.
 
-Periodo di conservazione
-I Dati sono trattati e conservati per il tempo richiesto dalle finalità per le quali sono stati raccolti.
+Scopri di più su come elaboriamo le tue informazioni.
 
-Pertanto:
+<h5>In quali situazioni e con quali parti condividiamo informazioni personali?</h5>
+Possiamo condividere informazioni in situazioni specifiche e con specifiche terze parti.
 
-I Dati Personali raccolti per scopi collegati all’esecuzione di un contratto tra il Titolare e l’Utente saranno trattenuti sino a quando sia completata l’esecuzione di tale contratto.
-I Dati Personali raccolti per finalità riconducibili all’interesse legittimo del Titolare saranno trattenuti sino al soddisfacimento di tale interesse. L’Utente può ottenere ulteriori informazioni in merito all’interesse legittimo perseguito dal Titolare nelle relative sezioni di questo documento o contattando il Titolare.
-Quando il trattamento è basato sul consenso dell’Utente, il Titolare può conservare i Dati Personali più a lungo sino a quando detto consenso non venga revocato. Inoltre, il Titolare potrebbe essere obbligato a conservare i Dati Personali per un periodo più lungo in ottemperanza ad un obbligo di legge o per ordine di un’autorità.
+Scopri di più su quando e con chi condividiamo le tue informazioni personali.
 
-Al termine del periodo di conservazione i Dati Personali saranno cancellati. Pertanto, allo spirare di tale termine il diritto di accesso, cancellazione, rettificazione ed il diritto alla portabilità dei Dati non potranno più essere esercitati.
+<h5>Quali sono i tuoi diritti?</h5>
+A seconda della tua posizione geografica, la legge sulla privacy applicabile può conferirti determinati diritti riguardo alle tue informazioni personali.
 
-Diritti dell’Utente
-Gli Utenti possono esercitare determinati diritti con riferimento ai Dati trattati dal Titolare.
+Scopri di più sui tuoi diritti sulla privacy.
 
-In particolare, l’Utente ha il diritto di:
+<h5>Come eserciti i tuoi diritti?</h5>
+Il modo più semplice per esercitare i tuoi diritti è inviare una richiesta di accesso dei dati personali, o contattandoci. Valuteremo e agiremo su qualsiasi richiesta in conformità alle leggi applicabili sulla protezione dei dati.
 
-revocare il consenso in ogni momento. L’Utente può revocare il consenso al trattamento dei propri Dati Personali precedentemente espresso.
-opporsi al trattamento dei propri Dati. L’Utente può opporsi al trattamento dei propri Dati quando esso avviene su una base giuridica diversa dal consenso. Ulteriori dettagli sul diritto di opposizione sono indicati nella sezione sottostante.
-accedere ai propri Dati. L’Utente ha diritto ad ottenere informazioni sui Dati trattati dal Titolare, su determinati aspetti del trattamento ed a ricevere una copia dei Dati trattati.
-verificare e chiedere la rettificazione. L’Utente può verificare la correttezza dei propri Dati e richiederne l’aggiornamento o la correzione.
-ottenere la limitazione del trattamento. Quando ricorrono determinate condizioni, l’Utente può richiedere la limitazione del trattamento dei propri Dati. In tal caso il Titolare non tratterà i Dati per alcun altro scopo se non la loro conservazione.
-ottenere la cancellazione o rimozione dei propri Dati Personali. Quando ricorrono determinate condizioni, l’Utente può richiedere la cancellazione dei propri Dati da parte del Titolare.
-ricevere i propri Dati o farli trasferire ad altro titolare. L’Utente ha diritto di ricevere i propri Dati in formato strutturato, di uso comune e leggibile da dispositivo automatico e, ove tecnicamente fattibile, di ottenerne il trasferimento senza ostacoli ad un altro titolare. Questa disposizione è applicabile quando i Dati sono trattati con strumenti automatizzati ed il trattamento è basato sul consenso dell’Utente, su un contratto di cui l’Utente è parte o su misure contrattuali ad esso connesse.
-proporre reclamo. L’Utente può proporre un reclamo all’autorità di controllo della protezione dei dati personali competente o agire in sede giudiziale.
-Dettagli sul diritto di opposizione
-Quando i Dati Personali sono trattati nell’interesse pubblico, nell’esercizio di pubblici poteri di cui è investito il Titolare oppure per perseguire un interesse legittimo del Titolare, gli Utenti hanno diritto ad opporsi al trattamento per motivi connessi alla loro situazione particolare.
+<h5>Vuoi saperne di più su cosa facciamo con le informazioni che raccogliamo?</h5>
+Rivedi l'avviso sulla privacy completo.
+<br/><br/><br/><br/>
+<h4>TABELLA DEI CONTENUTI</h4>
 
-Si fa presente agli Utenti che, ove i loro Dati fossero trattati con finalità di marketing diretto, possono opporsi al trattamento senza fornire alcuna motivazione. Per scoprire se il Titolare tratti dati con finalità di marketing diretto gli Utenti possono fare riferimento alle rispettive sezioni di questo documento.
+<table>
+      <thead>
+        <tr>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td>1.CHE INFORMAZIONI RACCOGLIAMO?</td>
+        </tr>
+        <tr>
+          
+          <td>2.COME ELABORIAMO LE TUE INFORMAZIONI?</td>
+        </tr>
+        <tr>
+         
+          <td>3.QUANDO E CON CHI CONDIVIDIAMO LE TUE INFORMAZIONI PERSONALI?</td>
+        </tr>
+        <tr>
+         
+          <td>4.UTILIZZIAMO COOKIE E ALTRI STRUMENTI DI TRACCIAMENTO?</td>
+        </tr>
+        <tr>
+          
+          <td>5.COME GESTIAMO I TUOI ACCESSI SOCIALI?</td>
+        </tr>
+        <tr>
+          
+          <td>6.LE TUE INFORMAZIONI SONO TRASFERITE A LIVELLO INTERNAZIONALE?</td>
+        </tr>
+        <tr>
+         
+          <td>7.QUANTO TEMPO CONSERVIAMO LE TUE INFORMAZIONI?</td>
+        </tr>
+        <tr>
+         
+          <td>8.RACCOGLIAMO INFORMAZIONI DA MINORI?</td>
+        </tr>
+        <tr>
+          
+          <td>9.QUALI SONO I TUOI DIRITTI ALLA PRIVACY?</td>
+        </tr>
+        <tr>
+          
+          <td>10.CONTROLLI PER LE FUNZIONI DO-NOT-TRACK?</td>        </tr>
+        <tr>
+          
+          <td>11.AGGIORNIAMO QUESTO AVVISO?</td>
+        </tr>
+        <tr>
+          
+          <td>12.COME PUOI CONTATTARCI SU QUESTO AVVISO?</td>
+        </tr>
+        <tr>
+         
+          <td>13.COME PUOI RIVEDERE, AGGIORNARE O CANCELLARE I DATI CHE RACCOGLIAMO DA TE?</td>
+        </tr>
+      </tbody>
+    </table>
 
-Come esercitare i diritti
-Per esercitare i diritti dell’Utente, gli Utenti possono indirizzare una richiesta agli estremi di contatto del Titolare indicati in questo documento. Le richieste sono depositate a titolo gratuito e evase dal Titolare nel più breve tempo possibile, in ogni caso entro un mese.
+<h5>1. CHE INFORMAZIONI RACCOGLIAMO?</h5>
 
-Ulteriori informazioni sul trattamento
-Difesa in giudizio
-I Dati Personali dell’Utente possono essere utilizzati da parte del Titolare in giudizio o nelle fasi preparatorie alla sua eventuale instaurazione per la difesa da abusi nell'utilizzo di questa Applicazione o dei Servizi connessi da parte dell’Utente.
-L’Utente dichiara di essere consapevole che il Titolare potrebbe essere obbligato a rivelare i Dati per ordine delle autorità pubbliche.
+Informazioni personali che ci fornisci
+Raccogliamo informazioni
 
-Informative specifiche
-Su richiesta dell’Utente, in aggiunta alle informazioni contenute in questa privacy policy, questa Applicazione potrebbe fornire all'Utente delle informative aggiuntive e contestuali riguardanti Servizi specifici, o la raccolta ed il trattamento di Dati Personali.
+ personali quando interagisci con noi, come quando utilizzi i nostri Servizi, crei un account, compili un modulo online, interagisci con i nostri social media, o comunicaci tramite posta elettronica.
 
-Log di sistema e manutenzione
-Per necessità legate al funzionamento ed alla manutenzione, questa Applicazione e gli eventuali servizi terzi da essa utilizzati potrebbero raccogliere log di sistema, ossia file che registrano le interazioni e che possono contenere anche Dati Personali, quali l’indirizzo IP Utente.
+Informazioni che raccogliamo automaticamente
+Raccogliamo automaticamente informazioni sul tuo dispositivo e sul tuo comportamento quando utilizzi i nostri Servizi, come il tuo indirizzo IP, il tipo di browser, il sistema operativo, i siti web da cui provieni e le pagine visitate.
 
-Informazioni non contenute in questa policy
-Ulteriori informazioni in relazione al trattamento dei Dati Personali potranno essere richieste in qualsiasi momento al Titolare del Trattamento utilizzando gli estremi di contatto.
+<h5>2. COME ELABORIAMO LE TUE INFORMAZIONI?</h5>
 
-Risposta alle richieste “Do Not Track”
-Questa Applicazione non supporta le richieste “Do Not Track”.
-Per scoprire se gli eventuali servizi di terze parti utilizzati le supportino, l'Utente è invitato a consultare le rispettive privacy policy.
+Elaboriamo le tue informazioni per fornire, migliorare e amministrare i nostri Servizi, comunicare con te, per la sicurezza e la prevenzione delle frodi, e per ottemperare alla legge. Possiamo anche elaborare le tue informazioni per altri scopi con il tuo consenso.
 
-Modifiche a questa privacy policy
-Il Titolare del Trattamento si riserva il diritto di apportare modifiche alla presente privacy policy in qualunque momento notificandolo agli Utenti su questa pagina e, se possibile, su questa Applicazione nonché, qualora tecnicamente e legalmente fattibile, inviando una notifica agli Utenti attraverso uno degli estremi di contatto di cui è in possesso. Si prega dunque di consultare con frequenza questa pagina, facendo riferimento alla data di ultima modifica indicata in fondo.
+<h5>3. QUANDO E CON CHI CONDIVIDIAMO LE TUE INFORMAZIONI PERSONALI?</h5>
 
-Qualora le modifiche interessino trattamenti la cui base giuridica è il consenso, il Titolare provvederà a raccogliere nuovamente il consenso dell’Utente, se necessario.
+Condividiamo informazioni in situazioni specifiche e con specifiche terze parti, come fornitori di servizi, autorità governative e altri.
+
+<h5>4. UTILIZZIAMO COOKIE E ALTRI STRUMENTI DI TRACCIAMENTO?</h5>
+
+Utilizziamo cookie e strumenti di tracciamento simili per raccogliere informazioni sulle tue attività online, come le tue preferenze e le pagine che visiti, per migliorare la tua esperienza utente e personalizzare la pubblicità.
+
+<h5>5. COME GESTIAMO I TUOI ACCESSI SOCIALI?</h5>
+
+Puoi scegliere di connettere i tuoi account dei social media ai nostri Servizi per semplificare il processo di accesso e per condividere contenuti.
+
+<h5>6. LE TUE INFORMAZIONI SONO TRASFERITE A LIVELLO INTERNAZIONALE?</h5>
+
+Le tue informazioni possono essere trasferite e conservate in un paese diverso da quello in cui risiedi. Adottiamo misure di sicurezza adeguate per proteggere le tue informazioni personali durante il trasferimento.
+
+<h5>7. QUANTO TEMPO CONSERVIAMO LE TUE INFORMAZIONI?</h5>
+
+Conserviamo le tue informazioni per il tempo necessario per adempiere agli scopi per cui sono state raccolte, a meno che non sia richiesto o consentito dalla legge una conservazione più lunga.
+
+<h5>8. RACCOGLIAMO INFORMAZIONI DA MINORI?</h5>
+
+I nostri Servizi non sono destinati ai minori di 18 anni e non raccogliamo consapevolmente informazioni personali da minori senza il consenso dei genitori o dei tutori legali.
+
+<h5>9. QUALI SONO I TUOI DIRITTI ALLA PRIVACY?</h5>
+
+A seconda della tua posizione geografica, la legge sulla privacy applicabile può conferirti determinati diritti riguardo alle tue informazioni personali, come il diritto di accedere, correggere, cancellare, limitare o opporsi al trattamento delle tue informazioni.
+
+<h5>10. CONTROLLI PER LE FUNZIONI DO-NOT-TRACK</h5>
+
+Il tuo browser web potrebbe offrire funzionalità Do Not Track ("DNT"). Attualmente, non rispondiamo ai segnali DNT del browser.
+
+<h5>11. AGGIORNIAMO QUESTO AVVISO?</h5>
+
+Aggiorniamo periodicamente questo avviso per riflettere le modifiche nei nostri Servizi, nelle nostre pratiche di trattamento delle informazioni e nelle leggi applicabili sulla privacy.
+
+<h5>12. COME PUOI CONTATTARCI SU QUESTO AVVISO?</h5>
+
+Se hai domande o dubbi su questo avviso sulla privacy, prego di contattarci ai nostri riferimenti.
+
+<h5>13. COME PUOI RIVEDERE, AGGIORNARE O CANCELLARE I DATI CHE RACCOGLIAMO DA TE?</h5>
+
+Puoi richiedere di accedere, aggiornare o cancellare le tue informazioni personali inviando una richiesta tramite i contatti forniti di seguito.
+<br/><br/>
+<h4>CONTATTACI</h4>
+
+Se hai domande o dubbi su questo avviso sulla privacy, ti preghiamo di contattarci all'indirizzo email: angolodabruzzo@outlook.it
             </p>
           </Modal.Body>
         </Modal>

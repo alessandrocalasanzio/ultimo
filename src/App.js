@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter as Router, } from "react-router-dom";
+import { HashRouter as Router,Route,Switch } from "react-router-dom";
 import Navbar from './components/1.navbar';
 import ScheletroStoria from './components/4.scheletroStoria';
 import MenuLista from './components/7.menu';
@@ -10,6 +10,8 @@ import Contatti from './components/9.contatti';
 import Footer from './components/12.footer';
 import Titoli from './components/2.titoli';
 import Titoli1 from './components/3.titoli1';
+import CookieBanner from './components/cookiebanner';
+import Cookie from './components/Cookie.js';
 
 import menu from './img/menu1.jpg';
 import pane from './img/bread.jpg';
@@ -72,7 +74,7 @@ const menus = [
   { id: 47, titolo: "Vitello tonnato con capperi", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 48, titolo: "Carpaccio con grana e rucola", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 49, titolo: "Mozzarelline dorate", prezzo: "11", sezione: "secondo", numero: "00", dollaro: "€" },
-  { id: 55, titolo: "Agnello al forno all’Abruzzese con patate", prezzo: "19", sezione: "secondo", numero: "00", dollaro: "€" },
+  { id: 55, titolo: "Agnello al forno Abruzzese con patate", prezzo: "19", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 56, titolo: "Arrosticini", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 58, titolo: "Tagliata", prezzo: "18/20", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 58.1, titolo: "Formaggi", prezzo: "5/8", sezione: "secondo", numero: "00", dollaro: "€" },
@@ -88,7 +90,7 @@ const menus = [
 
   { id: 69, megatitolo: "DOLCI", titolo: "Tiramisù", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 70, titolo: "Millefoglie", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
-  { id: 71, titolo: "Gelato alla crema affogato all’amaro Abruzzese", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
+  { id: 71, titolo: "Gelato crema con amaro Abruzzese", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 72, titolo: "Semifreddo affogato al caffè", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 73, titolo: "Sorbetto al Limone", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 74, titolo: "Sorbetto mela verde", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
@@ -122,7 +124,7 @@ function App() {
 
   const [state, setState] = useState(menus);
   const ref = useRef(null);
-
+  const [showCookie, setShowCookie] = useState(false);
 
 
   const filtra = (e) => {
@@ -167,6 +169,8 @@ function App() {
 
 
   const [loading, setLoading] = useState(false);
+  const buttonRef = useRef(null);
+
 
   useEffect(() => {
     setLoading(true)
@@ -189,16 +193,45 @@ function App() {
     AOS.init();
   });
 
+  useEffect(() => {
+    // Check if the cookie exists
+    const cookie = Cookies.get('isFirstVisit');
+
+    // If the cookie exists, skip the preload
+    if (cookie) {
+      setLoading(false);
+      return;
+    }
+
+    // Perform the preload
+    setTimeout(() => {
+      setLoading(false);
+    }, 9000);
+
+    // Simulate clicking a button after preload
+    setTimeout(() => {
+      if (buttonRef.current) {
+        buttonRef.current.click();
+      }
+    }, 9100);
+
+    // Set the isFirstVisit cookie to prevent further preloads
+    Cookies.set('isFirstVisit', 'true', { expires: 30 }); // This will expire after 30 days
+  }, []);
+
 
   return (
 
 
     <Router basename={window.location.pathname || ''}>
-
+    
+    
       <section id="home"></section>
+      
       {loading === true ?
         <Loading /> :
         <div>
+         <CookieBanner/>
           <Navbar />
           <section id="chisiamo"> </section>
           <Titoli title="CHI SIAMO" />
@@ -244,6 +277,7 @@ function App() {
           <div className="container-fluid footer"><Footer /></div>
         </div>
       }
+    
     </Router>
   );
 }

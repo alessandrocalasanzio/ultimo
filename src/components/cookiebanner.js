@@ -1,41 +1,67 @@
-import React from "react";
-import Modal from 'react-bootstrap/Modal'
-import { useState } from 'react';
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCookieBite } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
+import Modal from 'react-bootstrap/Modal';
 
-function Cookie() {
-    const [show, setShow] = useState(false);
-    const [fullscreen, setFullscreen] = useState(true);
+const CookieBanner = () => {
+  const [showBanner, setShowBanner] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
+  const handleAccept = () => {
+    // Qui puoi inserire la logica per accettare i cookie
+    setShowBanner(false);
+  };
 
-    return ( 
-        <>
-        <a className="coloreCookie"  type="button" variant="primary" onClick={() => setShow(true)}>
-        <FontAwesomeIcon icon={faCookieBite} size="2x"  />      
-         </a>
-  
-   
+  const handleLearnMore = () => {
+    // Apri il modal direttamente
+    setShowModal(true);
+    // Chiudi il banner
+    setShowBanner(false);
+  };
 
-        <Modal
-          
-          show={show}
-          fullscreen={fullscreen}
-          onHide={() => setShow(false)}
-          dialogClassName="modal-90w fade-left"
-          aria-labelledby="example-custom-modal-styling-title"
-          animation={true}
-        >
-        
-          <Modal.Header closeButton>
-            <Modal.Title id="example-custom-modal-styling-title">
-              Cookie Policy
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body >
+  const handleCloseModal = () => {
+    // Chiudi il modal
+    setShowModal(false);
+  };
 
-          <p>
+  const handleBannerClose = () => {
+    // Chiudi il banner
+    setShowBanner(false);
+  };
+
+  return (
+    <>
+      {showBanner && (
+        <div className="cookie-banner">
+          <div className="cookie-content">
+            <h5>Utilizziamo i cookie per migliorare la tua esperienza!</h5>
+            <p>
+              Questo sito web utilizza i cookie essenziali per assicurarti la migliore esperienza possibile.
+              Per saperne di più clicca su ulteriori informazioni.
+            </p>
+            <div className="cookie-buttons">
+              <button onClick={handleAccept}>Accetto</button>
+              <button onClick={handleLearnMore}>Ulteriori Info</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      
+
+      <Modal
+        onHide={handleCloseModal}
+        show={showModal}
+        fullscreen
+        dialogClassName="modal-90w fade-left"
+        aria-labelledby="example-custom-modal-styling-title"
+        animation
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-custom-modal-styling-title">
+            Cookie Policy
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        <p>
 
 <b>Ultimo aggiornamento 3 febbraio 2024</b>
 
@@ -97,6 +123,7 @@ Si tratta di cookie che non sono ancora stati categorizzati. Stiamo attualmente 
 
 <p>Poiché i mezzi con cui puoi rifiutare i cookie attraverso i controlli del tuo browser web variano da browser a browser, dovresti consultare il menu di aiuto del tuo browser per ulteriori informazioni. Di seguito trovi informazioni su come gestire i cookie sui browser più popolari:</p>
 <ul>
+
     <li><a className='cookiea' href="https://support.google.com/chrome/answer/95647#zippy=%2Callow-or-block-cookies" target="_blank">Chrome</a></li>
     <li><a className='cookiea' href="https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank">Internet Explorer</a></li>
     <li><a className='cookiea' href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop?redirectslug=enable-and-disable-cookies-website-preferences&redirectlocale=en-US" target="_blank">Firefox</a></li>
@@ -104,7 +131,6 @@ Si tratta di cookie che non sono ancora stati categorizzati. Stiamo attualmente 
     <li><a className='cookiea' href="https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd" target="_blank">Edge</a></li>
     <li><a className='cookiea' href="https://help.opera.com/en/latest/web-preferences/" target="_blank">Opera</a></li>
 </ul>
-
 
 <p>Inoltre, la maggior parte delle reti pubblicitarie ti offre un modo per escludere la pubblicità mirata. Se desideri ottenere ulteriori informazioni, visita:</p>
 <ul>
@@ -145,12 +171,14 @@ La data in cima a questa Politica sui Cookie indica quando è stata aggiornata l
 </ul>
 <p>Questa politica sui cookie è stata creata utilizzando il Cookie Consent Manager di Termly.</p>
           </p>
-          </Modal.Body>
-        </Modal>
-  
-      </>
-    );
-  }
 
+        </Modal.Body>
+        <Modal.Footer>
+          <button onClick={handleCloseModal}>Chiudi</button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
+};
 
-  export default Cookie;
+export default CookieBanner;

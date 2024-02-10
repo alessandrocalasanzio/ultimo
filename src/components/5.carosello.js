@@ -5,6 +5,8 @@ import entrataAbruzzo from "../img/lavagnanag.avif";
 import Carousel from 'react-bootstrap/Carousel';
 import ProgressiveImage from "react-progressive-image-loading";
 
+import murales from "../img/murales.jpg"
+
 import titolari from "../img/titolari.png";
 let imageList=[];
 
@@ -12,7 +14,7 @@ let imageList=[];
 class Carosello extends React.Component {
 
     componentDidMount() {
-        imageList = [Panorama,angoloGrigio,entrataAbruzzo,titolari]
+        imageList = [Panorama,angoloGrigio,murales,titolari]
         imageList.forEach((image) => {
             new Image().src = image
         });
@@ -32,7 +34,7 @@ class Carosello extends React.Component {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img className="d-block w-100 caroselloResize"src={entrataAbruzzo} alt="3 slide" />
+                        <img className="d-block w-100 caroselloResize"src={murales} alt="3 slide" />
                     </Carousel.Item>
 
                     <Carousel.Item>

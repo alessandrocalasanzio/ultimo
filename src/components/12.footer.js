@@ -18,8 +18,8 @@ class Footer extends React.Component{
       </nobr>
           </p></th>
       <th scope="col">
-        <p className="testCx">Da Giannino L'angolo D'Abruzzo - Copyright&copy;2024. Tutti i diritti sono riservati.</p>
-<p class="vlecvifooter">Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="www.vlecvi.com"> Vlecvi</a></p>
+        <p className="testCx">Da Giannino L'angolo D'Abruzzo &copy; Copyright&copy;2024.&nbsp; Tutti i diritti riservati &copy; Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="www.vlecvi.com"> Vlecvi</a></p>
+
 </th>
       <th scope="col"><p className="testDx">
           <nobr>
