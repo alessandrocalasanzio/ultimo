@@ -170,14 +170,27 @@ function App() {
 
   const [loading, setLoading] = useState(false);
   const buttonRef = useRef(null);
+  const [pageReloaded, setPageReloaded] = useState(false);
 
 
   useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 9000)
+    let timeoutId;
+    if (pageReloaded) {
+      timeoutId = setTimeout(() => {
+        ref.current.click();
+      }, 1000);
+    }
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [pageReloaded]);
+
+  // Imposta pageReloaded a true quando la pagina viene caricata
+  useEffect(() => {
+    setPageReloaded(true);
   }, []);
+
 
 
 
