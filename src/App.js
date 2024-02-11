@@ -168,17 +168,22 @@ function App() {
   }
 
 
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const buttonRef = useRef(null);
   const [pageReloaded, setPageReloaded] = useState(false);
 
+  useEffect(() => {
+    // Imposta pageReloaded a true quando la pagina viene caricata
+    setPageReloaded(true);
+  }, []);
 
   useEffect(() => {
+    // Se la pagina è stata ricaricata, avvia il timer per simulare il caricamento
     let timeoutId;
     if (pageReloaded) {
       timeoutId = setTimeout(() => {
-        ref.current.click();
-      }, 1000);
+        setLoading(false);
+      }, 500); // Simuliamo un caricamento di 3 secondi
     }
 
     return () => {
@@ -186,10 +191,17 @@ function App() {
     };
   }, [pageReloaded]);
 
-  // Imposta pageReloaded a true quando la pagina viene caricata
   useEffect(() => {
-    setPageReloaded(true);
-  }, []);
+    // Simula il click del bottone dopo che il caricamento è stato completato
+    if (!loading && buttonRef.current) {
+      buttonRef.current.click();
+    }
+  }, [loading]);
+
+  const handleButtonClick = () => {
+    // Azione da eseguire quando il bottone viene cliccato
+    console.log('Button clicked!');
+  };
 
 
 
@@ -197,7 +209,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 9100);
+    }, 1100);
   }, []);
 
 
@@ -209,25 +221,26 @@ function App() {
   useEffect(() => {
     // Check if the cookie exists
     const cookie = Cookies.get('isFirstVisit');
-
+    console.log("Cookie:", cookie); // Verifica se il cookie viene recuperato correttamente
+  
     // If the cookie exists, skip the preload
     if (cookie) {
       setLoading(false);
       return;
     }
-
+  
     // Perform the preload
     setTimeout(() => {
       setLoading(false);
     }, 9000);
-
+  
     // Simulate clicking a button after preload
     setTimeout(() => {
       if (buttonRef.current) {
         buttonRef.current.click();
       }
     }, 9100);
-
+  
     // Set the isFirstVisit cookie to prevent further preloads
     Cookies.set('isFirstVisit', 'true', { expires: 30 }); // This will expire after 30 days
   }, []);
