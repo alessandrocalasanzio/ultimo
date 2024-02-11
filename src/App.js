@@ -74,7 +74,7 @@ const menus = [
   { id: 47, titolo: "Vitello tonnato con capperi", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 48, titolo: "Carpaccio con grana e rucola", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 49, titolo: "Mozzarelline dorate", prezzo: "11", sezione: "secondo", numero: "00", dollaro: "€" },
-  { id: 55, titolo: "Agnello al forno Abruzzese con patate", prezzo: "19", sezione: "secondo", numero: "00", dollaro: "€" },
+  { id: 55, titolo: "Agnello al forno con patate", prezzo: "19", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 56, titolo: "Arrosticini", prezzo: "13", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 58, titolo: "Tagliata", prezzo: "18/20", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 58.1, titolo: "Formaggi", prezzo: "5/8", sezione: "secondo", numero: "00", dollaro: "€" },
@@ -90,7 +90,7 @@ const menus = [
 
   { id: 69, megatitolo: "DOLCI", titolo: "Tiramisù", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 70, titolo: "Millefoglie", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
-  { id: 71, titolo: "Gelato crema con amaro Abruzzese", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
+  { id: 71, titolo: "Gelato crema amaro d'Abruzzo", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 72, titolo: "Semifreddo affogato al caffè", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 73, titolo: "Sorbetto al Limone", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 74, titolo: "Sorbetto mela verde", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
@@ -106,9 +106,9 @@ const menus = [
   { id: 82, titolo: "Birra (66 cl)", prezzo: "6", sezione: "bevande", numero: "00", dollaro: "€" },
   {},
 
-  { id: 83, megatitolo: "VINI", titolo: "VINI DELLA CASA IN CARAFFA:1/4 Litro", prezzo: "3", sezione: "vino", numero: "50", dollaro: "€" },
-  { id: 85, titolo: "VINI DELLA CASA IN CARAFFA:1/2 Litro", prezzo: "6", sezione: "vino", numero: "50", dollaro: "€" },
-  { id: 87, titolo: "VINI DELLA CASA IN CARAFFA:1 Litro", prezzo: "10", sezione: "vino", numero: "50", dollaro: "€" },
+  { id: 83, megatitolo: "VINI", titolo: "Vino Casa in Caraffa:1/4 Litro", prezzo: "3", sezione: "vino", numero: "50", dollaro: "€" },
+  { id: 85, titolo: "Vino Casa in Caraffa:1/2 Litro", prezzo: "6", sezione: "vino", numero: "50", dollaro: "€" },
+  { id: 87, titolo: "Vino Casa in Caraffa:1 Litro", prezzo: "10", sezione: "vino", numero: "50", dollaro: "€" },
 
   { id: 88, titolo: "Cerasuolo Rosato d’Abruzzo", prezzo: "22/26", sezione: "vino", numero: "00", dollaro: "€" },
   { id: 89, titolo: "Trebbiano d’Abruzzo", prezzo: "22", sezione: "vino", numero: "00", dollaro: "€" },

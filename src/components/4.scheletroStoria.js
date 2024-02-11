@@ -28,7 +28,7 @@ class ScheletroStoria extends React.Component {
             <div>
                 <div className="container-fluid " data-aos="fade-up" data-aos-mirror='false' data-aos-once='true'>
                     <div className="row">
-                        <div className="col-md-5 marginColonna">
+                        <div className=" col-md-5 marginColonna">
                             <Carosello/>
                         </div>
                         
