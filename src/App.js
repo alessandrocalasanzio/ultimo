@@ -183,7 +183,7 @@ function App() {
     if (pageReloaded) {
       timeoutId = setTimeout(() => {
         setLoading(false);
-      }, 500); // Simuliamo un caricamento di 3 secondi
+      }, 5300); // Simuliamo un caricamento di 3 secondi
     }
 
     return () => {
@@ -209,7 +209,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 1100);
+    }, 1300);
   }, []);
 
 
@@ -232,14 +232,14 @@ function App() {
     // Perform the preload
     setTimeout(() => {
       setLoading(false);
-    }, 9000);
+    }, 5300);
   
     // Simulate clicking a button after preload
     setTimeout(() => {
       if (buttonRef.current) {
         buttonRef.current.click();
       }
-    }, 9100);
+    }, 1300);
   
     // Set the isFirstVisit cookie to prevent further preloads
     Cookies.set('isFirstVisit', 'true', { expires: 30 }); // This will expire after 30 days
