@@ -120,6 +120,41 @@ const menus = [
   { id: 95, titolo: "Spumante Mionetto", prezzo: "22", sezione: "vino", numero: "00", dollaro: "€" },
 ];
 
+const filtroMultilingue = {
+  antipasto: {
+    it: 'antipasto',
+    en: 'appetizers'
+  },
+  primo: {
+    it: 'primo',
+    en: 'first'
+  },
+  secondo: {
+    it: 'secondo',
+    en: 'second'
+  },
+  contorno: {
+    it: 'contorno',
+    en: 'side dish'
+  },
+  dolci: {
+    it: 'dolci',
+    en: 'desserts'
+  },
+  frutta: {
+    it: 'frutta',
+    en: 'fruit'
+  },
+  bevande: {
+    it: 'bevande',
+    en: 'beverages'
+  },
+  vino: {
+    it: 'vino',
+    en: 'wine'
+  }
+};
+
 function App() {
 
   const [state, setState] = useState(menus);
@@ -137,7 +172,15 @@ function App() {
       const filtered = menus.filter(menu => menu.sezione === 'antipasto');
       setState(filtered);
     }
+    else if (word === 'appetizers') {
+      const filtered = menus.filter(menu => menu.sezione === 'antipasto');
+      setState(filtered);
+    }
     else if (word === 'primo') {
+      const filtered = menus.filter(menu => menu.sezione === 'primo');
+      setState(filtered);
+    }
+    else if (word === 'first') {
       const filtered = menus.filter(menu => menu.sezione === 'primo');
       setState(filtered);
     }
@@ -266,25 +309,50 @@ function App() {
           <Titoli1 title="MENU" />
           {/*BOTTONI MENU*/}
           <div className="container-fluid">
+  <div className="row photo-grid card1-tall card1-wide">
+    <div data-filter="menu" className="cardCompleto imgSize sfondoCompleto sfondoMenuPdf ">
+      <a type="button" className="button posTestomenudw" href={PDF} download="MenuAngoloDabruzzo.pdf" style={{ color: "black" }}>SCARICA IL MENU COMPLETO</a>
+    </div>
+  </div>
 
-            <div className="row photo-grid card1-tall card1-wide">
-              <div data-filter="menu" className="cardCompleto imgSize sfondoCompleto sfondoMenuPdf "><a type="button" className="button posTestomenudw" href={PDF} download="MenuAngoloDabruzzo.pdf" style={{ color: "black" }}>SCARICA IL MENU COMPLETO</a></div>
-            </div>
+  <div className="row photo-grid card1-tall card1-wide">
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${pane})`, position: "relative" }}>
+      <button ref={ref} className="button" onClick={filtra} value="antipasto" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>ANTIPASTO</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="primo" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>PRIMO</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="secondo" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>SECONDO</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${patate})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="contorno" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>CONTORNO</span>
+    </div>
+  </div>
+  <div className="row photo-grid card1-tall card1-wide">
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${dolci})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="dolci" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>DOLCI</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${frutta})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="frutta" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>FRUTTA</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${acqua})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="bevande" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>BEVANDE</span>
+    </div>
+    <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${vino})`, position: "relative" }}>
+      <button className="button" onClick={filtra} value="vino" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", backgroundColor: "transparent", border: "none" }}></button>
+      <span>VINO</span>
+    </div>
+  </div>
+</div>
 
-            <div className="row photo-grid card1-tall card1-wide">
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${pane})` }}><button ref={ref} className="button" onClick={filtra} value="antipasto">ANTIPASTO</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})` }}><button className="button" onClick={filtra} value="primo">PRIMO</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="secondo">SECONDO</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${patate})` }}><button className="button" onClick={filtra} value="contorno">CONTORNO</button></div>
-
-            </div>
-            <div className="row photo-grid card1-tall card1-wide">
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${dolci})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${frutta})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${acqua})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
-              <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${vino})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
-            </div>
-          </div>
 
           {/*MENU*/}
           <div className='clearfix sfondoMenu'>

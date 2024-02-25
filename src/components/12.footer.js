@@ -18,7 +18,7 @@ class Footer extends React.Component{
       </nobr>
           </p></th>
       <th scope="col">
-        <p className="testCx">Da Giannino L'angolo D'Abruzzo &copy; Copyright&copy;2024.&nbsp; Tutti i diritti riservati &copy; Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="www.vlecvi.com"> Vlecvi</a></p>
+        <p className="testCx">Da Giannino L'angolo D'Abruzzo &copy; Copyright&copy;2024.&nbsp; Tutti i diritti riservati.</p>
 
 </th>
       <th scope="col"><p className="testDx">
@@ -27,10 +27,11 @@ class Footer extends React.Component{
       <a className="ig" href="https://www.instagram.com/angolodabruzzo/"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
       <a className="tree" href="https://linktr.ee/AngoloDabruzzo"><i className="fa fa-tree fa-2x" aria-hidden="true"></i></a>
       </nobr>
-          </p></th>
+          </p>
+          </th>
     </tr>
-    
   </table>
+  <p className="testDx">Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="www.vlecvi.com"> Vlecvi</a></p>
 </div>
         )
     }
