@@ -13,7 +13,6 @@ import Titoli1 from './components/3.titoli1';
 import CookieBanner from './components/cookiebanner';
 import Cookie from './components/Cookie.js';
 
-import menu from './img/menu1.jpg';
 import pane from './img/bread.jpg';
 import carbonara from './img/pasta.jpg';
 import carne from './img/carne1.jpg';

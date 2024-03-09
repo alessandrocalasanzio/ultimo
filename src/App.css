@@ -1246,65 +1246,8 @@ a:hover {
     z-index: 1;
 }
 
-.sfondoContatti4 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/social.avif") !important;
-    background-size: cover;
-    z-index: 1;
-}
 
-.sfondoContatti5 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/fb.avif") !important;
-    background-size: cover;
-    background-position: right;
-    height: 100%;
-    align-items: center !important;
-    padding-top: 40px !important;
-}
 
-.sfondoContatti6 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/ig.jfif") !important;
-    background-size: cover;
-    background-position: right;
-    height: 100%;
-    align-items: center !important;
-    padding-top: 40px !important;
-}
-
-.sfondoContatti7 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/lk.avif") !important;
-    background-size: cover;
-    background-position: right;
-    height: 100%;
-    align-items: center !important;
-    padding-top: 40px !important;
-}
-
-@media screen and (max-width: 580px) {
-    .sfondoContatti5 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/fb.avif") !important;
-        background-size: cover;
-        background-position-x: 85%;
-        height: 100%;
-        align-items: center !important;
-        padding-top: 40px !important;
-    }
-    .sfondoContatti6 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/ig.jfif") !important;
-        background-size: cover;
-        background-position-x: 70%;
-        height: 100%;
-        align-items: center !important;
-        padding-top: 40px !important;
-    }
-    .sfondoContatti7 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgba(255, 255, 255, 0.5)), url("img/lk.avif") !important;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        align-items: center !important;
-        padding-top: 40px !important;
-    }
-}
 
 .modal-90w {
     z-index: 9999 !important;

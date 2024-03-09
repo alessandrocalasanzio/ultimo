@@ -4,7 +4,6 @@ import Carousel from 'react-grid-carousel'
 
 import guida from "../img/guidaMichelin.avif";
 import gambero from "../img/gambero.avif";
-import espresso from "../img/espresso.avif";
 import slurpy from "../img/slurpy.avif";
 import guru from "../img/guru.avif";
 import vivi from "../img/vivi.svg";
@@ -43,7 +42,7 @@ const LogoLink = styled.a`
   display: block;
   width: 100%;
   height: 100%;
-  cursor: pointer;
+  cursor: auto;
 `;
 
 const Logo = styled.div`
@@ -51,7 +50,7 @@ const Logo = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  cursor: auto;
+  cursor: pointer;
   width: 100%;
   height: 100%;
 `;
