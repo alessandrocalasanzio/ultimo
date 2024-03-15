@@ -1312,7 +1312,7 @@ a:hover {
 .testCx {
     text-align: center;
     margin: 0 0 0 0 !important;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     font-family: 'Bebas Neue', cursive !important;
     background-color: black !important;
     color: white !important
@@ -1330,10 +1330,16 @@ a:hover {
     margin-left: 5px;
     margin-right: 5px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .testCx {
+        font-size: 18px; /* scegliere la dimensione del font appropriata */
+        display: block;
+    }
+}
 
 @media only screen and (max-width: 715px) {
     .testCx {
-        font-size: 1.3vw;
+        font-size: 2.5vw;
         display: block;
     }
 }
@@ -1349,7 +1355,7 @@ a:hover {
 
 @media only screen and (max-width: 420px) {
     .testCx {
-        font-size: 12px !important;
+        font-size: 0.8em !important;
         text-align: center;
     }
     .fa-2x {
@@ -1363,7 +1369,7 @@ a:hover {
         font-size: 1em !important;
     }
     .testCx {
-        font-size: 7px !important;
+        font-size: 12px !important;
     }
     .fa-2x {
         font-size: 1em !important;

@@ -18,7 +18,7 @@ class Footer extends React.Component{
       </nobr>
           </p></th>
       <th scope="col">
-        <p className="testCx">Da Giannino L'angolo D'Abruzzo &copy; Copyright&copy;2024.&nbsp; Tutti i diritti riservati.</p>
+        <p className="testCx">Da Giannino L'angolo D'Abruzzo &copy;2024.<br/> Tutti i diritti riservati.</p>
 
 </th>
       <th scope="col"><p className="testDx">
