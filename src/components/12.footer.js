@@ -31,7 +31,7 @@ class Footer extends React.Component{
           </th>
     </tr>
   </table>
-  <p className="testDx">Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="www.vlecvi.com"> Vlecvi</a></p>
+  <p className="testDx">Designed By <img src={LogoVlecvi} height={"40px"} width={"25px"}/><a class="vlecviname"  href="https://www.vlecvi.com"> Vlecvi</a></p>
 </div>
         )
     }
